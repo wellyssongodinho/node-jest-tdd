@@ -48,6 +48,7 @@ O projeto note-jest-tdd visa demonstar a utilização do framework jest para o d
 - Criação de rotas de testes e de serviços 
 - Criação de sessões de usuário (sessions)
 - Criação de tokens para controle de sessão (JWT json web token)
+- Criação de criptografia de dados para encapsular senhas (bcryptjs)
 - Criação de testes unitários e testes de integração
 - Criação de massas de testes (factory-girl and faker)
 
