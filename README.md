@@ -81,6 +81,7 @@ docker run -p 5432:5432 -d \
 postgres
 
 Isso criará no Docker uma instância no volume pgdata, rodando Postgres com o usuário "docker" e a senha "docker". Isso também criará uma base de dados chamada nodeauth permitindo que o usuário tenha permissão completa.
+```
 
 ## :memo: Licença
 
