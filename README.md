@@ -45,7 +45,7 @@ O projeto note-jest-tdd visa demonstar a utilização do framework jest para o d
 
 - Criação de variáveis de ambiente via dotent (.env) 
 - Criação de estrutura de dados via sequelize (migrators)
-- Criação de rotas de testes e de serviços 
+- Criação de rotas de testes e de serviços (supertest)
 - Criação de sessões de usuário (sessions)
 - Criação de tokens para controle de sessão (JWT json web token)
 - Criação de criptografia de dados para encapsular senhas (bcryptjs)
@@ -74,6 +74,7 @@ Você precisá ter o Docker instalado e configurado no seu ambiente para rodar a
 
 ```sh
 docker run -p 5432:5432 -d \
+--name postgresql \
 -e POSTGRES_PASSWORD=docker \
 -e POSTGRES_USER=docker \
 -e POSTGRES_DB=nodeauth \
